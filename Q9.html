@@ -1,0 +1,27 @@
+!DOCTYPE <html>
+<html lang="en">
+    <head>
+        <title>Grade evaluater</title>
+        <h1>Grade Evaluater</h1>
+    </head>
+    <body>
+        <script>
+            function getGrade(marks){
+                if(marks >= 90) {
+                    return "A";
+                }
+                else if  (marks >= 75){
+                    return "B";
+                }
+                  else if  (marks >= 50){
+                    return "C";
+                }
+                else{
+                    return "fail";
+                }
+            }
+            let grade = getGrade(85);
+            console.log("Grade:" , grade);
+        </script>
+    </body>
+</html>
